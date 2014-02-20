@@ -43,23 +43,32 @@ time, mark, audio, video {
 
 #nav {
 	margin-bottom: 20px;
+	 background: -moz-linear-gradient(top, #f4f7f8 0%, #e2e8ec 44%, #d6dde2 45%, #eef1f4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f7f8), color-stop(44%,#e2e8ec), color-stop(45%,#d6dde2), color-stop(100%,#eef1f4));
+		background: -webkit-linear-gradient(top, #f4f7f8 0%,#e2e8ec 44%,#d6dde2 45%,#eef1f4 100%);
+		background: -o-linear-gradient(top, #f4f7f8 0%,#e2e8ec 44%,#d6dde2 45%,#eef1f4 100%);
+		background: -ms-linear-gradient(top, #f4f7f8 0%,#e2e8ec 44%,#d6dde2 45%,#eef1f4 100%);
+		background: linear-gradient(to bottom, #f4f7f8 0%,#e2e8ec 44%,#d6dde2 45%,#eef1f4 100%);
 }
 
 	#menu-items {
+		height: 40px;
 		list-style-type: none;
-		background-color: #EEEEEE;
-		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B0B0B1), to(#EEEEEE), color-stop(.5,#DCDCDD));
-		background: -moz-linear-gradient(top, #B0B0B1 0%, #DCDCDD 50%, #EEEEEE 100%);
-				}
+		padding-top: 10px;
+		font-size: .7em;
+		font-weight: bold;
+		margin-left: 30px;
+		}
 
 		
 
 	#menu-items li {
 		display: inline;
 		border-right: 1px solid #525256;
-		margin-left: 10px;
-		padding: 0 2px;
-	}
+		padding: 0 12px;
+		margin-top: 10px;
+			}
+
 		#menu-items li a{
 			color: #67676C;
 		}
@@ -67,4 +76,62 @@ time, mark, audio, video {
 		#menu-items li a:hover {
 			color: #3E3E41;
 		}
+
+#content-wrapper{
+	background-color: brown;
+
+}
+
+#top-row {
+	border: 1px solid black;
+}
+
+#welcome-container {
+	display: inline-block;
+	vertical-align: top;
+	background-color: grey;
+	width: 800px;
+	border: 1px solid black;
+	height: 256px;
+}
+
+	#welcome-container h3 {
+		background-color: gold;
+		font-weight: bold;
+		font-size: .8em;
+		padding: 5px 0;
+	}
+
+			#welcome{
+				margin-left: 10px;
+				
+				color: white;
+			}
+
+				#welcome h2 {
+					margin-top: 10px;
+				}
+
+				#welcome p {
+					color: white;
+					margin-top: 20px;
+					font-size: .8em;
+				}
+
+	#middle-content img{
+		height: 20px;
+		width: 60px;
+	}
+
+	#middle-content p{
+		color: burlywood;
+		display: inline-block;
+		font-size: .7em;
+	}
+
+
+
+
+
+
 
